@@ -10,6 +10,8 @@ var grid20 = document.querySelector('#grid20')
 var grid21 = document.querySelector('#grid21')
 var grid22 = document.querySelector('#grid22')
 
+var grid = document.querySelectorAll("#grid")
+
 function alterText(content){
     if (content == ""){
         return "X"

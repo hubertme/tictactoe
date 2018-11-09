@@ -4,26 +4,40 @@
     <meta charset="UTF-8">
     <title>TicTacToe</title>
     <link rel="stylesheet" href="tictactoe.css">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>-->
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>-->
 </head>
 <body>
-    <table>
-        <tr>
-            <td id="grid00"> </td>
-            <td id="grid01"> </td>
-            <td id="grid02"> </td>
-        </tr>
-        <tr>
-            <td id="grid10"> </td>
-            <td id="grid11"> </td>
-            <td id="grid12"> </td>
-        </tr>
-        <tr>
-            <td id="grid20"> </td>
-            <td id="grid21"> </td>
-            <td id="grid22"> </td>
-        </tr>
-    </table>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4"> Welcome to the tic-tac-toe game!</h1>
+            <p>
+                <br>Please have some fun playing the game! Enjoy!
+            </p>
+        </div>
+    </div>
+
+    <div class="container container-fluid">
+        <table id="grid">
+            <tr>
+                <td id="grid00"> </td>
+                <td id="grid01"> </td>
+                <td id="grid02"> </td>
+            </tr>
+            <tr>
+                <td id="grid10"> </td>
+                <td id="grid11"> </td>
+                <td id="grid12"> </td>
+            </tr>
+            <tr>
+                <td id="grid20"> </td>
+                <td id="grid21"> </td>
+                <td id="grid22"> </td>
+            </tr>
+        </table>
+    </div>
 </body>
 <script src="actionSheet.js"></script>
 </html>
